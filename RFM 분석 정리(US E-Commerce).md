@@ -103,6 +103,7 @@ Monetary : 거래의 규모를 의미한다. 어떠한 고객이 특정 기간 �
     quantity : 주문 수량을 나타냄<br>
     discount : 할인율을 나타냄<br>
     profit : 매출에 대비한 순 이익을 나타냄 +가 될 수도 -가 될 수도 있다.<br>
+</details>
 
 <br>
 
@@ -116,11 +117,12 @@ Monetary : 거래의 규모를 의미한다. 어떠한 고객이 특정 기간 �
 
 <details>
     <summary>접기/펼치기</summary>
-    customer_id : 고객의 id
-	first_order_date : 처음 주문한 날짜 
-	last_order_date : 마지막으로 주문한 날짜 
-	cnt_orders :  주문횟수 (중요! records 테이블의 order_id의 DISTINCT 갯수를 기반으로 카운트 한 컬럼이다.)
+    customer_id : 고객의 id<br>
+	first_order_date : 처음 주문한 날짜<br> 
+	last_order_date : 마지막으로 주문한 날짜<br> 
+	cnt_orders :  주문횟수 (중요! records 테이블의 order_id의 DISTINCT 갯수를 기반으로 카운트 한 컬럼이다.)<br>
 	sum_sales : 해당 고객이 총 구매한 금액을 가리킨다. 
+</details>
 
 <br>
 
@@ -645,6 +647,8 @@ segment를 묶어 Frequency에 대한 4분위 수 분포 확인
 <br>
 
 <br>
+
+
 
 #### Recency 
 
