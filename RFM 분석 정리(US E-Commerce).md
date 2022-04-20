@@ -648,7 +648,21 @@ segment를 묶어 Frequency에 대한 4분위 수 분포 확인
 
 <br>
 
+지금까지 EDA를 통해, 그리고 추가적인  결정 사항을 통해 RFM Segmentation의 기준을 정리하였습니다.
 
+1. **R은 last_order_date, F는 sum_quantity, M은 sum_sales로 한다.**
+2. **segment를 기준으로 각각 RFM Segmentation을 수행한다.** 
+3. **1분위수에 있는 분포는 2로 정의한다.**
+4. **4분위수에 있는 0으로 정의한다.**
+5. **2, 3분위수에 있는 분포는 1로 정의한다.**
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 #### Recency 
 
